@@ -1,6 +1,6 @@
 package main;
 
-import dao.db.ConnectionFactory;
+import view.MainUI;
 
 /**
  *
@@ -8,8 +8,12 @@ import dao.db.ConnectionFactory;
  */
 public class PetShop {
     
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
-        ConnectionFactory.getConnection();
+        new MainUI().menu();
     }
     
 }

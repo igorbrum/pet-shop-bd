@@ -1,4 +1,4 @@
-package br.com.senacrs.consultorio.util;
+package util;
 
 import java.util.Scanner;
 

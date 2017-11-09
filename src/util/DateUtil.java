@@ -1,4 +1,4 @@
-package br.com.senacrs.consultorio.util;
+package util;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
